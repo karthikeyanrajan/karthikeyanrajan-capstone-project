@@ -31,7 +31,7 @@ pipeline {
                         sh 'docker tag reactjs-demo:latest karthikeyanrajan/devrepo:01'
                         sh 'docker push karthikeyanrajan/devrepo:01'
                         sh 'docker rmi -f reactjs-demo:latest'
-                        sh 'docker rmi -f karthikeyanrajan/devrepo:latest'
+                        sh 'docker rmi -f karthikeyanrajan/devrepo:01'
                         sh 'docker-compose down'
                         sh 'docker-compose -f docker-compose-dev.yml up -d'
                         
