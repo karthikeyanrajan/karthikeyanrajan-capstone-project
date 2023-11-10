@@ -30,7 +30,7 @@ if docker image inspect "$IMAGE_NAME:$IMAGE_TAG" &> /dev/null; then
 
   # Display the public IP
   # Use green color for the URL
-  echo -e "Please check the container output on the browser IP:PORT - \e[32mhttp://$(curl -s checkip.amazonaws.com):3000\e[0m"
+  echo -e "Please check the container output on the browser IP:PORT - \e[32mhttp://$(curl -s checkip.amazonaws.com):80\e[0m"
 else
   # Image doesn't exist
   echo "No Docker image found with the name and tag = $IMAGE_NAME:$IMAGE_TAG"
