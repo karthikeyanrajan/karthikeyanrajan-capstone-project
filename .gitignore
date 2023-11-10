@@ -1,3 +1,4 @@
-node_modules
-build
-project-submission-files
+/project-submission-files/
+/public/
+/src/
+
