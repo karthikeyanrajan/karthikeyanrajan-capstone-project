@@ -1,6 +1,6 @@
 # karthikeyanrajan-capstone-project
 
-# Here my project screenshots ans explanation use the below provided google docx url:
+# Here my project screenshots and explanation use the below provided google docx url:
 URL: https://docs.google.com/document/d/190tsmUi2kGucd3R7n0Pmbc4weZVj4cEJ-qCRjLDhqw4/edit?usp=drive_link
 
 # Alternative to access this project files:
