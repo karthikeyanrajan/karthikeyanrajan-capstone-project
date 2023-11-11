@@ -1,68 +1,101 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# karthikeyanrajan-capstone-project
 
-## Available Scripts
+# Here my project screenshots and explanation use the below provided google docx url:
+URL: https://docs.google.com/document/d/190tsmUi2kGucd3R7n0Pmbc4weZVj4cEJ-qCRjLDhqw4/edit?usp=drive_link
 
-In the project directory, you can run:
+# Alternative to access this project files:
+You can use the Gdrive line for the project files : https://drive.google.com/drive/folders/1eWHw1p_FuVb4TjuECv21ZkG00LRh4RiJ?usp=sharing
 
-### `npm start`
+# This Repo Contains three branches :
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Main branch
+  * On main branch the all Project files are available
+  * On project-submission-files folder -> Configurationfiles folder -> installation steps & config files are uploaded
+  * On project-submission-files folder -> Screenshots are uploaded
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# Dev branch
+  * On dev branch uploaded with jenkins pipeline files 
 
-### `npm test`
+# Master branch
+  * On master branch uploaded with jenkins pipeline files
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Note:
+To see particular pictures mentioned in this document
 
-### `npm run build`
+In this Picture Name is marked with numbers refer the → main branch project-submission-files folder - Screenshots are uploaded with numbers 
+Example : 01.bash script build.sh
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Configuration Files and Installation Steps
+ * path - main branch --> project-submission-files/Configurationfiles
+1. **Docker Install Steps**
+   - File: Docker Install Steps.txt
+   - Description: Use this file for detailed steps on installing Docker.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+2. **Docker Daemon Configuration Steps**
+   - File: docker-daemon config steps.txt
+   - Description: This file provides instructions for configuring the Docker daemon.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Jenkins Installation**
+   - File: Jenkins install.sh
+   - Description: Execute this shell script for installing Jenkins and its dependencies.
 
-### `npm run eject`
+4. **Npm Installation Steps**
+   - File: Npm installation steps.txt
+   - Description: Follow the steps in this file to install npm (Node Package Manager) on your system.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+5. **Node Exporter Installation Steps**
+   - File: Node Exporter Installation Steps.txt
+   - Description: Refer to this file for steps on installing Node Exporter, a Prometheus exporter for system metrics.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+6. **Prometheus Installation Steps**
+   - File: Prometheus Installation Steps.txt
+   - Description: Use this file for detailed instructions on installing Prometheus, an open-source monitoring and alerting toolkit.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+7. **Prometheus Configuration**
+   - File: prometheus.yml
+   - Description: Configuration file for Prometheus. Customize settings for your monitoring environment.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+8. **Alert Manager Installation Steps**
+   - File: Alert Manager Installation Steps.txt
+   - Description: Follow the steps in this file to install and configure Alert Manager for handling alerts from Prometheus.
 
-## Learn More
+9. **Alert Manager Email Configuration Steps**
+   - File: Alert manager email configuration steps.txt
+   - Description: Configure email notifications for Alert Manager. Follow the steps provided in this file.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+10. **CPU Alert Configuration**
+    - File: cpu-alert.yml
+    - Description: Customize CPU alerting rules using this YAML configuration file for Prometheus.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+11. **Host Alert Configuration**
+    - File: host-alert.yml
+    - Description: Configure host-related alerts using this YAML configuration file for Prometheus.
 
-### Code Splitting
+12. **Memory Alert Configuration**
+    - File: memory-alert.yml
+    - Description: Define alerting rules related to memory using this YAML configuration file for Prometheus.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+13. **Docker Compose - Cadvisor (Development)**
+    - File: docker-compose-cadvisor-dev.yml
+    - Description: Docker Compose file for setting up cAdvisor in a development environment.
 
-### Analyzing the Bundle Size
+14. **Docker Compose - Cadvisor (Production)**
+    - File: docker-compose-cadvisor-prod.yml
+    - Description: Docker Compose file for deploying cAdvisor in a production environment.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+15. **Docker Daemon Configuration**
+    - File: docker-daemon.json
+    - Description: Configuration file for Docker daemon. Customize Docker settings using this JSON configuration file.
 
-### Making a Progressive Web App
+16. **Grafana Installation Steps**
+    - File: Grafana Installation Steps.txt
+    - Description: Follow the steps in this file to install Grafana, an open-source platform for monitoring and observability.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+17. **Grafana Email Alert Configuration Steps**
+    - File: grafanaemailalertconfiguration steps.txt
+    - Description: Configure email alerts in Grafana by following the steps outlined in this file.
 
-### Advanced Configuration
+18. **Grafana Dashboard IDs**
+    - File: Grafana dash board ID's.txt
+    - Description: This file contains the IDs of various Grafana dashboards. Use these IDs for quick reference or integration some other panels shown in the project are customized.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
